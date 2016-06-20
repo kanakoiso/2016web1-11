@@ -20,4 +20,4 @@ if(answer === number){
 }
 
 // 結果
-document.getEfementById('choice').text
+document.getEfementById('choice').textContent = new Date();
