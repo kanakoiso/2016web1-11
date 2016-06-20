@@ -1,25 +1,25 @@
 
-var number = Math.floor(Math.random()*3);
-var answer = parseInt(window.prompt('数あてゲーム。0～2の数字を入力してください!'));
+var number = Math.floor(Math.random()*100);
+var answer = parseInt(window.prompt('数あてゲーム。0～99の数字を入力してください!'));
 
 
 
 var message;
 
 if(answer === number){
-  massege='ｱﾀﾘﾀﾞﾖｰ';
+  massege='当たりだよ';
 }
   
 else if(answer < number){
-　message = 'ﾓｳﾁｮｯﾄｵｵｷｲﾄｵﾓｳﾝﾀﾞｹﾞﾄﾞﾅｰ';
+　message = 'もう少し大きいと思うよ';
 }
 　
 else if(number < answer){
-  message = 'ｿﾝﾅﾆｵｵｷｲｽｳｼﾞｼﾞｬﾅｲﾖ';
+  message = 'そんなに大きな数字じゃないよ';
 }
   
 else{
-  masage = 'ｻｲｼｮﾉﾌﾞﾝｼｮｳﾁｬﾝﾄﾖﾝﾃﾞﾈ';
+  masage = '説明文ちゃんと読んで下さい　日本語読めないんですか?';
 }
 
 // 結果
