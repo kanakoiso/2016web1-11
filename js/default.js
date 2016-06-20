@@ -1,6 +1,6 @@
 
 var number = Math.floor(Math.random()*100);
-var answer = parseInt(window.prompt('数あてゲーム。0～99の数字を入力してください!'));
+var answer = parseInt(window.prompt('数あてゲーム。0～99の数字を入力してね'));
 
 
 
