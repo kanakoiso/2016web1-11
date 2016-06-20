@@ -10,11 +10,11 @@ if(answer === number){
   massege='あたり!';
 }
   
-else if{answer < number){
+else if(answer < number){
 　message = '残念!もっと大きいです';
 }
 　
-else if{answer < number){
+else if(number < answer){
   message = '残念!もっとい小さいです';
 }
   
