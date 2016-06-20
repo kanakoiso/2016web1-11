@@ -19,7 +19,7 @@ else if(number < answer){
 }
   
 else{
-  masage = '数字を入力してください　日本語読めないんですか?';
+  masage = '0～99の数字を入力してください';
 }
 
 // 結果
