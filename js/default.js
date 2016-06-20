@@ -15,7 +15,7 @@ else if(answer < number){
 }
 　
 else if(number < answer){
-  message = '残念!もっとい小さいです';
+  message = '残念!もっと小さいです';
 }
   
 else{
