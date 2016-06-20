@@ -8,14 +8,19 @@ var message;
 
 if(answer === number){
   massege='あたり!';
-}else if{answer < number){
-
-  message = '残念!もっと大きいです';
-}else if{answer < number){
+}
+  
+else if{answer < number){
+　message = '残念!もっと大きいです';
+}
+　
+else if{answer < number){
   message = '残念!もっとい小さいです';
-}else{
-  masage = '0～3'の数字を入力してください
+}
+  
+else{
+  masage = '0～3の数字を入力してください';
 }
 
 // 結果
-document.getElementById('choice').textContent = result;
+document.getElementById('choice').textContent = message;
